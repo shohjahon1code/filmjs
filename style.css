@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1483909197658050563/pu/img/zwoFr7Qf9ngxLPPw?format=jpg&name=large");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  gap: 25px;
+}
